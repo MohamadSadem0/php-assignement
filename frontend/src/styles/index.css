@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.icon {
+  color: #333;
+}
+
+.input {
+  @apply w-full p-3 mb-3 border rounded-lg text-sm;
+}
+
+.btn {
+  @apply w-full p-3 bg-purple-700 text-white font-semibold rounded-lg;
+}
